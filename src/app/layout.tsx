@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "QuizMe",
   description: "Test your knowledge with QuizMe",
+  icons: {
+    icon: "/quiz.png",
+  },
 };
 
 export default function RootLayout({
